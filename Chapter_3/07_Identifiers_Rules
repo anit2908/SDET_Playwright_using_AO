@@ -1,0 +1,32 @@
+var Name = "Anit";
+var firstName = "Anit"; //Camel case notation, commonly used in JavaScript
+var first_name = "Anit"; // Snake case notation, less common in JavaScript but still valid
+
+//1 : Camel Case is more commonly used in JavaScript for variable and function names, while snake case is often used in other programming languages like Python. Both are valid identifier naming conventions, and the choice between them can depend on personal or team preferences.
+
+let userName = "Anit";     // Using 'let' for variable declaration
+let totalPrice = 99.99; // Using 'let' for variable declaration
+let loggedinStatus = true; // Using 'let' for variable declaration
+
+//2 : Pascal Case is often used for class names in JavaScript, where the first letter of each word is capitalized. For example: used for JS class names and constructors
+
+let UserName = "Anit";     // Using 'let' for variable declaration
+let ShoopingCart = "Cart is Empty"; // Using 'let' for variable declaration
+
+
+//3" Snake Case = underscore seperated  (is less common in JavaScript but still valid. It uses underscores to separate words. For example:
+let user_name = "Anit";     // Using 'let' for variable declaration
+let total_prrice_test = 100.99;
+let is_logged_in_class = false;
+
+//4 : Screaming Snake Case = ALL_CAPS_WITH_UNDERSCORES (often used for constants in JavaScript. It uses uppercase letters and underscores to separate words. For example:
+ const API_KEY = "123456";
+const MAX_Size = "100";
+const DATABASE_URL = "localhost";
+
+//5 : hungarian Notation = prefixing variable names with a type or purpose indicator (is not commonly used in modern JavaScript and is generally discouraged. It can make code less readable and harder to maintain. For example:
+let strUserName = "Anit";     // Using 'let' for variable declaration
+let numTotalPrice = 99.99;   //number type prefix
+let boolLoggedInStatus = true; //boolean type prefix
+let arrUserList = ["Anit", "Maharana", "John"]; //array type prefix
+
